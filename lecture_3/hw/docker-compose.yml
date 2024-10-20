@@ -4,7 +4,7 @@ services:
   shop_api:
     build:
       context: ../..  # Путь к корневой директории проекта
-      dockerfile: Dockerfile  # Указываем, что Dockerfile находится в корне
+      dockerfile: Dockerfile
     image: shop-api:latest
     ports:
       - "8000:8000"
